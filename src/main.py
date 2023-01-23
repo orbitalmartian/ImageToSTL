@@ -47,7 +47,7 @@ def main():
                 window['-HEIGHT-'].update(height)
                 values['-HEIGHT-'] = str(height)
         
-        if event == '-GENERATE-':
+       if event == '-GENERATE-':
             if img and values['-WIDTH-'] and values['-HEIGHT-'] and values['-NOZZLE-'] and values['-FOLDER-']:
                 # convert image to 3D model and save it to selected folder
                 pass
